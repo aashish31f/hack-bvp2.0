@@ -4,13 +4,14 @@
         
       }
       .carousel_caption{
-        color : white;
+        color : black;
+        font-size: 40px;
         position: relative;
-        top: 100%;
-        left: 10%;
+        top: 80%;
+        left:50%;
       }
       .image{
-        background-image: url(black-background.jpg);
+        background-image: url(boy5.jpg);
         background-size: 100% 670px;
         background-repeat: no-repeat;
         background-position: top center;
@@ -18,7 +19,16 @@
 
       }
       .image2{
-          background-image: url(blur.jpg);
+          background-image: url(boy2.jpg);
+        background-size: 100% 670px;
+        background-repeat: no-repeat;
+        background-position: top center;
+        background-attachment: fixed;
+
+      }
+
+      .image3{
+          background-image: url(boy4.jpg);
         background-size: 100% 670px;
         background-repeat: no-repeat;
         background-position: top center;
@@ -27,7 +37,7 @@
       }
 
       .mission{
-         background-image: url(blur.jpg);
+         background-image: url(miss2.jpg);
         background-size: 100% 670px;
         background-repeat: no-repeat;
         background-position: top center;
@@ -37,7 +47,8 @@
       .mission-data{
         position: relative;
         top: 10%;
-        color :white;
+        color :black;
+        font-weight: bolder;
       }
 
       .navhover:hover{
@@ -92,6 +103,13 @@
     opacity: 0;
     filter: alpha(opacity=0);
 }
+
+.carousel_caption12{
+        color : black;
+        
+        position: relative;
+        top: 100%;
+        left: 10%;
 
 *,:after,:before{box-sizing:border-box}
 .clearfix:after,.clearfix:before{content:'';display:table}
@@ -225,6 +243,7 @@ a{color:inherit;text-decoration:none}
 .login-html .sign-up:checked + .tab + .login-form .sign-up-htm{
   transform:rotate(0);
 }
+
 
 .hr{
   height:2px;
