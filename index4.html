@@ -10,21 +10,19 @@
 
     <link rel="stylesheet" type="text/css" href="style.css">
 
-    <title>hello</title>
+    <title>LifeLine</title>
     </head>
 
   <body>
     <header>
       <nav class="navbar navbar-expand-md navbar-dark sticky-top bg-dark">
-        <a class="navbar-brand" href="#">Carousel</a>
+        <a class="navbar-brand" href="#">LifeLine</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
           <ul class="navbar-nav mr-auto">
-            <li class="nav-item active navhover">
-              <a class="nav-link " href="#"><b>Home</b> <span class="sr-only">(current)</span></a> 
-            </li>
+            
             <li class="nav-item active navhover"> 
               <a class="nav-link" href="#"><b>Road</b></a>
             </li>
@@ -33,7 +31,7 @@
             </li>
           </ul>
           <form class="form-inline mt-2 mt-md-0">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="logout">Log Out</button>
+            <a href="index.html"><button class="btn btn-outline-success my-2 my-sm-0" type="logout">Log Out</button></a>
           </form>
         </div>
       </nav>
@@ -41,26 +39,32 @@
 
      <div class="container">
   <div class="row">
-    <div class="col-sm-6">
+    <div class="col-md-6">
       <div class="jumbotron jumbo-position">
-  <h1 class="display-4"><b>Found on road!!</b></h1>
+  <h1 class="display-4"><b>Suspect something wrong </b></h1>
   <p></p>
-  <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+  <p class="lead"><b>Do you suspect that a child is in distress ? </b></p>
+  <br>
+  <p class="lead"><b>Help him/her by just uploading the information for others to know and help.</b> </p>
   <hr class="my-4">
   <p>Click here to upload</p>
+  <br><br>
   <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#roadModal">
   Upload
 </button>
 </div>
     </div> 
 
-    <div class="col-sm-6">
+    <div class="col-md-6">
       <div class="jumbotron jumbo-position">
-  <h1 class="display-4"><b>Post an AD!!</b></h1>
-  <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+  <h1 class="display-4"><b>Post missing AD!!</b></h1>
+  <p></p>
+  <p class="lead"><b>Do you know if a child is gone missing ? </b></p>
+  <br>
+  <p class="lead"><b>Just post an AD and help the child to return to where he/she belongs.</b></p>
   <hr class="my-4">
   <p>Click here to upload</p>
-  
+  <br><br>
   <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#postADModal">
   Upload
 </button>
@@ -78,7 +82,7 @@
   <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="roadModal">Modal title</h5>
+        <h5 class="modal-title" id="roadModal">Child Information</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -121,12 +125,12 @@
 
             <div class="form-group">
               <label for="date"><b>Lost on</b></label>
-              <input type="text" class="form-control" placeholder="Enter Date and time when lost" name="date" required>
+              <input type="text" class="form-control" placeholder="Enter Date when lost" name="date" required>
             </div>    
           </div>
         </form>
       <div class="modal-footer">
-         <button type="button" class="btn btn-primary btn-lg" id="road_upload"><b>Upload</b></button>
+         <button type="button" class="btn btn-primary btn-lg close" data-dismiss="modal" aria-label="Close" id="road_upload"><b>Upload</b></button>
       </div>
     </div>
   </div>
@@ -137,7 +141,7 @@
   <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="postADModal">Modal title</h5>
+        <h5 class="modal-title" id="postADModal">Child Information</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -180,7 +184,7 @@
 
             <div class="form-group">
               <label for="date"><b>Lost on</b></label>
-              <input type="text" class="form-control" placeholder="Enter Date and time when lost" name="date" required>
+              <input type="text" class="form-control" placeholder="Enter Date when lost" name="date" required>
             </div>
 
             <div class="form-group">
@@ -196,7 +200,7 @@
 
         </form>
       <div class="modal-footer">
-         <button type="button" class="btn btn-primary btn-lg" id="missing_upload"><b>Upload</b></button>
+         <button type="button" class="btn btn-primary btn-lg close" data-dismiss="modal" aria-label="Close" id="missing_upload"><b>Upload</b></button>
       </div>
     </div>
   </div>
