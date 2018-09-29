@@ -1,0 +1,9 @@
+/*document.querySelector('.thumbnail').addEventListener('mouseover',function(){
+    document.querySelector('.thumbnail').classList.add('border');
+});
+document.querySelector('.thumbnail').addEventListener('mouseout',function(){
+    document.querySelector('.thumbnail').classList.remove('border');
+});*/
+var input = document.getElementById("#1").value();
+console.log(input);
+F4&gXVqZHN1^1r7OD#kU
